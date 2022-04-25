@@ -19,7 +19,7 @@ Local and persisted variables have to be declared in camelCase. For example:
 ```
 
 ## Maps
-Maps have to be declared in PascaCase. Key tuple definition and Map tuple definition should be declared in separate lines and follow tuples standard. For example:
+Maps have to be declared in PascalCase. Key tuple definition and Map tuple definition should be declared in separate lines and follow tuples standard. For example:
 ```clarity
 (define-map UserRoles
     {user: principal}
@@ -39,7 +39,7 @@ Tuples have to be declared using curlybracket notation. Tuple keys should be dec
 ```
 
 ## Functions
-Functions have to be declares in all lower case with dash separators. Function parameters should follow local and persisted variable standards For example:
+Functions have to be declared in all lower case with dash separators. Function parameters should follow local and persisted variable standards For example:
 ```clarity
 (define-read-only (is-root (userName (buff 50)))
     (ok true)
@@ -51,7 +51,7 @@ Functions have to be declares in all lower case with dash separators. Function p
 ```
 
 ## Closing parenthesis
-Parenthesis should be closed in the same line if line is very short or at the same level as they were opened if what is inside parenthesis is more complex. For example
+Parenthesis should be closed in the same line if line is very short or at the same level as they were opened if what is inside parenthesis is more complex. For example:
 ```clarity
 ;; BAD
 (define-public (do-something-cool (userId uint))
