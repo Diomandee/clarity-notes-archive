@@ -120,6 +120,7 @@ If you calculate values that can't change over time - define them as constant. I
 11. Reducing contract size by removing comments, using shorter names (functions, variables, keys in tuples)
     - don't use stupid asci logos in comments
     - don't comment code that is self explanatory
+12. Move large constants to separate contract and load them using `contract-call?`
 
 ## Long term recommendations
 > Premature Optimization Is the Root of All Evil
