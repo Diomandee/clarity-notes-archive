@@ -1,3 +1,6 @@
+# DEPRECATED 
+## This project repo is no longer being maintained.
+
 This repo contains some portion of notes, sketches, ideas etc. I collected over time.
 
 Most of them were created while I was working with @whoabuddy on CityCoins project.
